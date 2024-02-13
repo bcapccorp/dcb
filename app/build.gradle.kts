@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "bcapc.corp.dcb"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "bcapc.corp.dcb"
         minSdk = 27
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -45,6 +45,7 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
+    buildToolsVersion = "33.0.2"
 }
 
 dependencies {
@@ -57,6 +58,7 @@ dependencies {
     implementation(libs.ui.graphics)
     implementation(libs.ui.tooling.preview)
     implementation(libs.material3)
+    implementation(libs.material)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.espresso.core)

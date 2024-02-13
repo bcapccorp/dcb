@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Decentralized Call Blocker</string>
+    <string name="service_name">DCB - Decentralized Call Blocker Service</string>
+    <string name="phone_account">DCB-phone_account</string>
+
+<!--  ERRORS  -->
+
+    <string name="default_dial_change_refuse">O sistema não funciona sem esse recurso</string>
 </resources>
